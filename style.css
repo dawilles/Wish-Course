@@ -42,15 +42,6 @@ body {
 	color: #ffffff;
 	padding: 30px 0 29px;
 }
-.navbar a {
-	font-size: 14px;
-	font-weight: 700;
-	letter-spacing: 0.2px;
-	line-height: 24px;
-	color: #ffffff;
-	text-decoration: none;
-	margin: 0px 10px 0px 10px;
-}
 a,
 .link {
 	font-size: 14px;
@@ -79,11 +70,9 @@ a,
 	font-size: 14px;
 	font-weight: 700;
 	line-height: 22px;
-
 	padding: 15px 25px;
 	border-radius: 5px;
 	color: #fff;
-
 	cursor: pointer;
 	border: 1px solid #23a6f0;
 	background: #23a6f0;
@@ -95,3 +84,52 @@ a,
 }
 
 /* ===================== */
+
+.section {
+	min-height: 100vh;
+}
+.section-primary {
+	background-color: #184c99;
+}
+.wrapper {
+	position: relative;
+	margin: auto;
+	padding-top: 215px;
+	max-width: 686px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.tag {
+	color: #23a6f0;
+	font-weight: 700;
+	font-size: 16px;
+	letter-spacing: 0.1px;
+	padding: 20px;
+	text-decoration: none;
+}
+.title {
+	font-weight: 700;
+	font-size: 58px;
+	letter-spacing: 0.2px;
+	padding: 20px 15px;
+	text-align: center;
+}
+.title-light {
+	color: #fff;
+}
+.caption {
+	font-weight: 700;
+	font-size: 20px;
+	letter-spacing: 0.2px;
+	padding: 20px 75px;
+	text-align: center;
+}
+.caption-light {
+	color: #fff;
+}
+.button-wrapper {
+	display: flex;
+	gap: 10px;
+}
