@@ -10,6 +10,7 @@ body {
 	font-family: "Montserrat", sans-serif;
 	position: relative;
 }
+/* -------------- Header -------- */
 .header {
 	position: absolute;
 	width: 100%;
@@ -78,12 +79,17 @@ a,
 	background: #23a6f0;
 }
 .button-default {
-	border-color: #23a6f0;
 	background-color: transparent;
+	border-color: #23a6f0;
+	color: #23a6f0;
+}
+.button-secondary {
+	background-color: transparent;
+	border: 1px solid #23a6f0;
 	color: #23a6f0;
 }
 
-/* ===================== */
+/* -------------- First section ------------------ */
 
 .section {
 	min-height: 100vh;
@@ -106,8 +112,10 @@ a,
 	font-weight: 700;
 	font-size: 16px;
 	letter-spacing: 0.1px;
-	padding: 20px;
 	text-decoration: none;
+}
+.tag-primary {
+	padding: 20px;
 }
 .title {
 	font-weight: 700;
@@ -132,4 +140,50 @@ a,
 .button-wrapper {
 	display: flex;
 	gap: 10px;
+	padding-top: 20px;
 }
+/* ----------------Second section---------- */
+.section-secondary {
+	background-color: #252b42;
+}
+.wrapper-primary {
+	display: flex;
+	align-items: center;
+	gap: 30px;
+	padding: 160px 0 160px 0;
+}
+.box {
+	max-width: 508px;
+}
+.box-primary {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	gap: 35px;
+}
+.bar {
+	display: block;
+	height: 7px;
+	width: 94px;
+	background-color: #e74040;
+}
+.subtitle {
+	font-weight: 700;
+	font-size: 40px;
+	letter-spacing: 0.2px;
+	padding-right: 98px;
+}
+.subtitle-light {
+	color: #ffffff;
+}
+.text {
+	font-weight: 400;
+	font-size: 14px;
+	letter-spacing: 0.2px;
+	line-height: 20px;
+	padding-right: 156px;
+}
+.text-light {
+	color: #ffffff;
+}
+/* ------------------------------------- */
