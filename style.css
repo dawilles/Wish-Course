@@ -83,21 +83,20 @@ a,
 	color: #23a6f0;
 }
 
-.section {
+.section-full-height {
 	min-height: 100vh;
 }
 .section-primary {
+	display: flex;
+	align-items: center;
 	background-color: #184c99;
 }
 .wrapper {
-	position: relative;
-	margin: auto;
-	padding-top: 215px;
 	max-width: 686px;
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
 	align-items: center;
+	text-align: center;
 }
 .tag {
 	color: #23a6f0;
@@ -105,14 +104,12 @@ a,
 	font-size: 16px;
 	letter-spacing: 0.1px;
 	padding: 20px;
-	text-decoration: none;
 }
 .title {
 	font-weight: 700;
 	font-size: 58px;
 	letter-spacing: 0.2px;
 	padding: 20px 15px;
-	text-align: center;
 }
 .title-light {
 	color: #fff;
@@ -122,7 +119,6 @@ a,
 	font-size: 20px;
 	letter-spacing: 0.2px;
 	padding: 20px 75px;
-	text-align: center;
 }
 .caption-light {
 	color: #fff;
