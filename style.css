@@ -10,7 +10,6 @@ body {
 	font-family: "Montserrat", sans-serif;
 	position: relative;
 }
-/* -------------- Header -------- */
 .header {
 	position: absolute;
 	width: 100%;
@@ -79,50 +78,43 @@ a,
 	background: #23a6f0;
 }
 .button-default {
-	background-color: transparent;
 	border-color: #23a6f0;
-	color: #23a6f0;
-}
-.button-secondary {
 	background-color: transparent;
-	border: 1px solid #23a6f0;
 	color: #23a6f0;
 }
-
-/* -------------- First section ------------------ */
-
-.section {
+/* First Section */
+.section-full-height {
 	min-height: 100vh;
 }
 .section-primary {
+	display: flex;
+	align-items: center;
 	background-color: #184c99;
 }
 .wrapper {
-	position: relative;
-	margin: auto;
-	padding-top: 215px;
 	max-width: 686px;
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
 	align-items: center;
+	text-align: center;
 }
+
 .tag {
 	color: #23a6f0;
 	font-weight: 700;
 	font-size: 16px;
 	letter-spacing: 0.1px;
-	text-decoration: none;
 }
-.tag-primary {
+.wrapper > h5 {
 	padding: 20px;
 }
 .title {
 	font-weight: 700;
 	font-size: 58px;
 	letter-spacing: 0.2px;
+}
+.wrapper > h1 {
 	padding: 20px 15px;
-	text-align: center;
 }
 .title-light {
 	color: #fff;
@@ -131,8 +123,9 @@ a,
 	font-weight: 700;
 	font-size: 20px;
 	letter-spacing: 0.2px;
+}
+.wrapper > h4 {
 	padding: 20px 75px;
-	text-align: center;
 }
 .caption-light {
 	color: #fff;
@@ -142,27 +135,24 @@ a,
 	gap: 10px;
 	padding-top: 20px;
 }
-/* ----------------Second section---------- */
+/* Second section  */
+
 .section-secondary {
 	background-color: #252b42;
+	display: flex;
+	align-items: center;
 }
 .wrapper-primary {
 	display: flex;
 	align-items: center;
-	gap: 30px;
-	padding: 160px 0 160px 0;
 }
-.box {
-	max-width: 508px;
-}
+
 .box-primary {
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
 	gap: 35px;
 }
 .bar {
-	display: block;
 	height: 7px;
 	width: 94px;
 	background-color: #e74040;
@@ -171,7 +161,6 @@ a,
 	font-weight: 700;
 	font-size: 40px;
 	letter-spacing: 0.2px;
-	padding-right: 98px;
 }
 .subtitle-light {
 	color: #ffffff;
@@ -181,6 +170,8 @@ a,
 	font-size: 14px;
 	letter-spacing: 0.2px;
 	line-height: 20px;
+}
+.box-primary > p {
 	padding-right: 156px;
 }
 .text-light {
