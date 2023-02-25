@@ -153,7 +153,11 @@ a,
 	max-width: 550px;
 }
 
-.col-primary::before {
+.title-with-line {
+	position: relative;
+	padding-top: 42px;
+  }
+  .title-with-line::before {
 	content: "";
 	display: block;
 	position: relative;
