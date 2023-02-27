@@ -1,0 +1,51 @@
+*,
+*::before,
+*::after {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body{
+    font-family: "Montserrat", sans-serif;
+	position: relative;
+}
+main{
+    background-color: rgb(56, 67, 101);
+}
+section{
+    padding: 150px;
+}
+.title {
+	font-weight: 700;
+	font-size: 58px;
+	letter-spacing: 0.2px;
+}
+
+.title-light {
+	color: #fff;
+}
+.button {
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 22px;
+	padding: 15px 25px;
+	border-radius: 5px;
+	color: #fff;
+	cursor: pointer;
+	border: 1px solid #23a6f0;
+	background: #23a6f0;
+}
+.button-default {
+	border-color: #23a6f0;
+	background-color: transparent;
+	color: #23a6f0;
+}
+.link {
+	font-size: 14px;
+	font-weight: 700;
+	letter-spacing: 0.2px;
+	line-height: 24px;
+	text-decoration: none;
+	color: #23a6f0;
+}
