@@ -146,7 +146,7 @@ a,
 	padding: 160px 0px;
 }
 
-.col {
+.column {
 	display: flex;
 	flex-direction: column;
 	gap: 35px;
