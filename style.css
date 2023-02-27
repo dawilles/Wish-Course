@@ -158,6 +158,11 @@ a,
 	padding-top: 42px;
 }
 .title-with-line::before {
+.title-with-line {
+	position: relative;
+	padding-top: 42px;
+  }
+  .title-with-line::before {
 	content: "";
 	display: block;
 	position: relative;
