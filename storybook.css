@@ -25,6 +25,60 @@ section{
 .title-light {
 	color: #fff;
 }
+.subtitle {
+	font-weight: 700;
+	font-size: 40px;
+	letter-spacing: 0.2px;
+}
+.subtitle-light {
+	color: #ffffff;
+}
+.caption {
+	font-weight: 700;
+	font-size: 20px;
+	letter-spacing: 0.2px;
+}
+
+.caption-light {
+	color: #fff;
+}
+.text {
+	font-weight: 400;
+	font-size: 14px;
+	letter-spacing: 0.2px;
+	line-height: 20px;
+}
+.text-light {
+	color: #ffffff;
+}
+.tag {
+	color: #23a6f0;
+	font-weight: 700;
+	font-size: 16px;
+	letter-spacing: 0.1px;
+}
+.title-content {
+	font-size: 14px;
+	font-weight: 700;
+	color: #23a6f0;
+}
+.subtitle-content {
+	font-size: 16px;
+	color: #252b42;
+}
+.text-content {
+	font-size: 14px;
+	font-weight: 400;
+	color: #737373;
+	line-height: 20px;
+}
+.price {
+	font-size: 16px;
+	color: #bdbdbd;
+}
+.price-new {
+	color: #40bb15;
+}
 .button {
 	font-size: 14px;
 	font-weight: 700;
