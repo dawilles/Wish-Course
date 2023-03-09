@@ -358,6 +358,35 @@ a,
 .button-small {
 	max-width: 50%;
 }
+.row-opinion {
+	justify-content: center;
+}
+.opinion-card {
+	max-width: 500px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 30px;
+}
+.opinion-hero {
+	width: 128px;
+	height: 128px;
+	border-radius: 50%;
+	background-position: center;
+}
+.opinion-text {
+	text-align: center;
+	padding: 0px 160px 0px 160px;
+}
+
+.stars i {
+	color: #ccc;
+	cursor: pointer;
+}
+.stars i.active {
+	color: #ffd700;
+}
+
 
 /* Media  */
 @media (min-width: 992px) {
