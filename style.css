@@ -256,7 +256,18 @@ a,
 	border: none;
 	cursor: pointer;
 }
-
+.fa-heart:hover {
+	color: #e74040;
+	scale: 1.4;
+}
+.fa-shopping-cart:hover {
+	color: #0ee915;
+	scale: 1.2;
+}
+.fa-eye:hover {
+	color: #184c99;
+	scale: 1.2;
+}
 .product-content {
 	width: 100%;
 	height: 378px;
@@ -396,7 +407,7 @@ form {
 }
 .email-input {
 	border: none;
-	width: 668px;
+	width: 368px;
 	height: 58px;
 	padding-left: 20px;
 	background-color: #f9f9f9;
@@ -427,6 +438,11 @@ form {
 	line-height: 32px;
 	font-weight: 700;
 }
+.list-unstyled {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
 .social-icons {
 	display: flex;
 	gap: 20px;
@@ -443,7 +459,10 @@ form {
 		display: flex;
 		flex-direction: row;
 	}
-	.row-footer{
+	.row-footer {
 		flex-direction: row;
+	}
+	.email-input {
+		width: 668px;	
 	}
 }
